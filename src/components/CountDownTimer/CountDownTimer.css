@@ -1,0 +1,22 @@
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  /* margin: 20px auto; */
+}
+
+.timer {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}

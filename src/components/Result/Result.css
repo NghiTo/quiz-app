@@ -1,0 +1,26 @@
+.result-text {
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+}
+
+.result-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+#tryagain {
+  background-color: #6ed5b7;
+}
+
+#review {
+  background-color: #ef4444;
+  color: white;
+}
+
+#review:hover {
+  background-color: #f87171;
+}
